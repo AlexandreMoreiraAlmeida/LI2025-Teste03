@@ -16,5 +16,3 @@
  13  git push origin main
  14  history > meusComandosLOCAIS.txt
  15  cat meusComandosLOCAIS.txt
-
-
