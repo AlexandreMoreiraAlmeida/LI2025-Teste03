@@ -1,0 +1,26 @@
+Nome: Alexandre Jorge Moreira Almeida
+NMEC: 132396
+
+Tarefa 1
+ git config --global user.email alexandre.jorge.almeida@ua.pt
+ echo "# LI2025-Teste03" >> README.md
+ git init
+ git add README.md
+ git commit -m "first commit"
+ git branch -M main
+ git remote add origin https://github.com/AlexandreMoreiraAlmeida/LI2025-Teste03.git
+ git push -u origin main
+ ssh -i "C:\Users\alexa\Downloads\LIVMLINUX_key.pem" Alexandre@4.233.69.215
+cd ~
+git clone https://github.com/AlexandreMoreiraAlmeida/LI2025-Teste03.git
+
+Tarefa 2
+cd ~/LI2025-Teste03
+mkdir A132396
+cd A132396 
+echo "Teste de LI 2025/2026." > README.md
+cd ..
+git add A132396/README.md
+git commit -m "2ª tarefa concluída"
+git push origin main
+
